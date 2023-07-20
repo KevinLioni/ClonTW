@@ -1,0 +1,82 @@
+
+
+/* Estilos para el contenedor de búsqueda */
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  /* Estilo para el input de búsqueda */
+  input[type="text"] {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+  }
+  
+  /* Estilo para el botón de búsqueda */
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    height: 40px;
+  }
+  
+  /* Estilo para los iconos */
+  .icono-grande {
+    width: 25px;
+    height: 25px;
+  }
+  
+  /* Estilo para el boton twittear */
+  .btn-largo {
+    width: 200px;
+  }
+  
+  /* Estilo para el boton twittear 
+  .btn-custom {
+    background-color: cornflowerblue;
+  }
+  
+   Estilo para el boton twittear hover 
+  .btn-custom:hover {
+    background-color: #474afa;
+  } no logro q me tome los estilos se deja el boton por defecto de BS "primary" */
+  
+
+ /* Estilos columna core central */
+ .btn-largo1 {
+    width: 400px;
+ }
+
+ .icono-grande2 {
+    width: 30px;
+    height: 30px;
+ }
+
+ .btn-largo2 {
+    width: 100px;
+ }
+
+ .tweets {
+    margin-left: 45px;
+ }
+
+ .botonera-fija {
+    position: fixed;
+ }
+
+ .imagen {
+    width: 100%;
+ }
+
+ .btn-largo3 {
+    width: 170px;
+ }
