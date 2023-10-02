@@ -40,17 +40,6 @@
     width: 200px;
   }
   
-  /* Estilo para el boton twittear 
-  .btn-custom {
-    background-color: cornflowerblue;
-  }
-  
-   Estilo para el boton twittear hover 
-  .btn-custom:hover {
-    background-color: #474afa;
-  } no logro q me tome los estilos se deja el boton por defecto de BS "primary" */
-  
-
  /* Estilos columna core central */
  .btn-largo1 {
     width: 400px;
@@ -80,3 +69,26 @@
  .btn-largo3 {
     width: 170px;
  }
+
+ /*modo oscuro*/
+
+body {
+   background-color: #ffffff;
+   color: #1f1f1f;
+}
+
+.card {
+   background-color: #f8f9fa;
+   color: #1f1f1f;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+   background-color: #1f1f1f;
+   color: #ffffff;
+}
+
+.card.dark-card {
+   background-color: #333333;
+   color: #ffffff;
+}
